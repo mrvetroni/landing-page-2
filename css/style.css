@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+.conteiner{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.clear{
+  clear: both;
+}
+header{
+  background-color: #ccc;
+  padding: 10px 2%;
+}
+.logo1{
+  float: left;
+  width: 160px;
+  height: 60px;
+  margin-top: 3px;
+  background-image: url(../imagens/logo1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* background-color: blue; */
+}
+.logo2{
+  float: right;
+   width: 160px;
+  height: 60px;
+  background-image: url(../imagens/logo2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+}
+.logo1 img, .logo2 img{
+  width: 150px;
+  height: 70px;
+}
+@media screen and (max-width: 510px){
+  .logo1,.logo2{
+    float: none;
+    margin: 15px auto;
+
+  }
+}
